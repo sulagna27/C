@@ -34,13 +34,13 @@ home:
                 printf("A. Narendra Modi\t B. Rajendra Prasad\nC. Jawaharlal Nehru\t D. None of these\n");
                 if (toupper(getch()) == 'B')
                 {
-                    printf("Correct\n");
+                    printf("Correct, Press any key.\n");
                     getch();
                     break;
                 }
                 else
                 {
-                    printf("The Correct Answer is B.\n");
+                    printf("The Correct Answer is B, Press any key.\n");
                     getch();
                     break;
                 }
@@ -50,13 +50,13 @@ home:
                 printf("A. Sundar Pichai\t B. Larry Page & Sergey Brin\t C. Bill Gates\t D. Mark Zuckerberg\n");
                 if (toupper(getch()) == 'B')
                 {
-                    printf("Correct\n");
+                    printf("Correct, Press any key.\n");
                     getch();
                     goto home;
                 }
                 else
                 {
-                    printf("The Correct Answer is B.\n");
+                    printf("The Correct Answer is B, Press any key.\n");
                     getch();
                     goto home;
                 }
